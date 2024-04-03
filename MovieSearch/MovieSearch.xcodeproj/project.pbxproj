@@ -13,6 +13,8 @@
 		849FF5AC2BBDBBF700CA9946 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 849FF5AB2BBDBBF700CA9946 /* Base */; };
 		849FF5AE2BBDBBF800CA9946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849FF5AD2BBDBBF800CA9946 /* Assets.xcassets */; };
 		849FF5B12BBDBBF800CA9946 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 849FF5B02BBDBBF800CA9946 /* Base */; };
+		849FF5BC2BBDE2F700CA9946 /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849FF5BB2BBDE2F700CA9946 /* MovieTableViewCell.xib */; };
+		849FF5BD2BBDE2F700CA9946 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849FF5BA2BBDE2F700CA9946 /* MovieTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		849FF5AD2BBDBBF800CA9946 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		849FF5B02BBDBBF800CA9946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		849FF5B22BBDBBF800CA9946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849FF5BA2BBDE2F700CA9946 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		849FF5BB2BBDE2F700CA9946 /* MovieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				849FF5A42BBDBBF700CA9946 /* AppDelegate.swift */,
 				849FF5A62BBDBBF700CA9946 /* SceneDelegate.swift */,
 				849FF5A82BBDBBF700CA9946 /* ViewController.swift */,
+				849FF5BA2BBDE2F700CA9946 /* MovieTableViewCell.swift */,
+				849FF5BB2BBDE2F700CA9946 /* MovieTableViewCell.xib */,
 				849FF5AA2BBDBBF700CA9946 /* Main.storyboard */,
 				849FF5AD2BBDBBF800CA9946 /* Assets.xcassets */,
 				849FF5AF2BBDBBF800CA9946 /* LaunchScreen.storyboard */,
@@ -127,6 +133,7 @@
 			files = (
 				849FF5AE2BBDBBF800CA9946 /* Assets.xcassets in Resources */,
 				849FF5B12BBDBBF800CA9946 /* Base in Resources */,
+				849FF5BC2BBDE2F700CA9946 /* MovieTableViewCell.xib in Resources */,
 				849FF5AC2BBDBBF700CA9946 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				849FF5A92BBDBBF700CA9946 /* ViewController.swift in Sources */,
 				849FF5A52BBDBBF700CA9946 /* AppDelegate.swift in Sources */,
+				849FF5BD2BBDE2F700CA9946 /* MovieTableViewCell.swift in Sources */,
 				849FF5A72BBDBBF700CA9946 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
